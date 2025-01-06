@@ -1,58 +1,38 @@
 # GestionProduitsFrontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+## Frontend Description
 
-## Development server
+The frontend application provides a user interface for interacting with the product management API. It is built using Angular, a popular framework for building web applications. The frontend allows users to view, add, update, and delete products.
+### Features
 
-To start a local development server, run:
+- **Product List**: Display a list of all products with options to view details, update, and delete.
+- **Add Product**: Form to add a new product.
+- **Edit Product**: Form to update an existing product.
+- **Product Details**: View detailed information about a specific product.
+- **Responsive Design**: Ensures the application works well on various devices and screen sizes.
 
-```bash
-ng serve
-```
+## Technologies Used
+1.  Angular: Framework for building dynamic single-page applications.
+2.  TypeScript: Programming language for cleaner and maintainable code.
+## Installation and Setup
+1. Clone the repository:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+   ```bash
+   git clone https://github.com/GramiMohamed/frontend-repo.git
+   cd your-frontend-repo
+2. Install dependencies:
 
-## Code scaffolding
+   ```bash
+   npm install
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+3. Start the Angular application:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+   ```bash
+   ng serve --open
+The frontend will be running on http://localhost:4200.
+## Technologies Used
+1.  Angular: Framework for building dynamic single-page applications.
+2.  TypeScript: Programming language for cleaner and maintainable code.
 
 ## Additional Resources
 
