@@ -1,0 +1,10 @@
+<h1>Liste des Produits</h1>
+<ul>
+  <li *ngFor="let produit of produits">
+    {{ produit.nom }} - {{ produit.prix }}€ - {{ produit.categorie }}
+    <button (click)="voirDetails(produit._id)">Détails</button>
+    <button (click)="modifierProduit(produit._id)">Modifier</button>
+    <button (click)="supprimerProduit(produit._id)">Supprimer</button>
+  </li>
+</ul>
+<a routerLink="/produits/ajouter">Ajouter un produit</a>

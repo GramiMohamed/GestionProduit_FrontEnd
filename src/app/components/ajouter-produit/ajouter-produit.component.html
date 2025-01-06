@@ -1,0 +1,10 @@
+<h1>Ajouter un Produit</h1>
+<div>
+  <label>Nom:</label>
+  <input [(ngModel)]="produit.nom" />
+  <label>Prix:</label>
+  <input type="number" [(ngModel)]="produit.prix" />
+  <label>Catégorie:</label>
+  <input [(ngModel)]="produit.categorie" />
+  <button (click)="ajouterProduit()">Ajouter</button>
+</div>

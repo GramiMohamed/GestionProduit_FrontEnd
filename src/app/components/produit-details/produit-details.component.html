@@ -1,0 +1,8 @@
+<h1>Détails du Produit</h1>
+<div *ngIf="produit">
+  <p><strong>Nom:</strong> {{ produit.nom }}</p>
+  <p><strong>Prix:</strong> {{ produit.prix }}€</p>
+  <p><strong>Catégorie:</strong> {{ produit.categorie }}</p>
+</div>
+<button (click)="goBack()">Retour</button>
+<button (click)="modifierProduit(produit._id)">Modifier</button>

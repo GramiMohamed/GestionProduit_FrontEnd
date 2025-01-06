@@ -1,0 +1,10 @@
+<h1>Modifier le Produit</h1>
+<div *ngIf="produit">
+  <label>Nom:</label>
+  <input [(ngModel)]="produit.nom" />
+  <label>Prix:</label>
+  <input type="number" [(ngModel)]="produit.prix" />
+  <label>Catégorie:</label>
+  <input [(ngModel)]="produit.categorie" />
+  <button (click)="modifierProduit()">Modifier</button>
+</div>

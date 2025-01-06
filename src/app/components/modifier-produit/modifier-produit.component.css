@@ -1,0 +1,20 @@
+/* modifier-produit.component.css */
+div {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+}

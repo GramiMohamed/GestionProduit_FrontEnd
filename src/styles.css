@@ -1,0 +1,36 @@
+/* Ensure global styles do not interfere with links */
+a {
+  color: #007bff;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
